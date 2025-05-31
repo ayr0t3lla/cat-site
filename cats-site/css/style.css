@@ -1,0 +1,29 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.hero-video {
+  background: #f8f9fa;
+}
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+.img-thumbnail {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.img-thumbnail:hover {
+  transform: scale(1.05);
+}
+footer {
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #343a40, #495057);
+}
